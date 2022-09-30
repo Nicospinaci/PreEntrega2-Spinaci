@@ -8382,128 +8382,78 @@ textarea.form-control-lg {
     display: none !important; } }
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
-  /* index Mobile */
-  body {
+  /* Alquileres Mobile */
+  .alquileres_condiciones {
+    text-decoration: underline;
     margin: 0 auto;
-    font-family: "DM Sans", sans-serif !important;
-    background-image: #e7e7e7; }
-  .logorental {
-    padding-top: 10px;
-    width: 30%; }
-  .imagenportada {
-    margin: 0 auto;
-    width: 100vw; }
-  .main_maspedidos {
-    width: 100vw;
-    height: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%; }
+    .alquileres_condiciones h1, .alquileres_condiciones .h1 {
+      padding-top: 15px;
+      font-size: 18px; }
+  .alquileres_ol {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-content: center; }
-  .main_maspedidos_title h2, .main_maspedidos_title .h2 {
-    margin: 0 auto;
+    margin: 0 15px;
+    width: 90%;
+    height: 100%;
+    font-size: 16px;
     padding-top: 20px;
-    font-size: 16px;
-    align-items: center;
-    justify-content: center;
-    text-align: center; }
-  .main_maspedidos_box {
-    width: 90%;
-    justify-self: center; }
-  .main_maspedidos_cam {
-    width: 100%; }
-  .masproductos {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 0px;
-    font-size: 8px; }
-  .masproductos h3, .masproductos .h3 {
-    padding-bottom: 40px; }
-  .arribos_oferta {
-    width: 100vw;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-bottom: 3px;
-    gap: 10px; }
-  .oferta_del_mes {
-    width: 80%; }
-  .nuevos_arribos {
-    width: 80%; }
-  .promo_estudiantes {
-    width: 90%;
-    padding-bottom: 5px; }
-  h3 span, .h3 span {
-    background-color: #d6d6d6; }
-  .footer {
-    width: 100vw;
-    background-color: grey; }
-  .footer_img {
-    width: 100%; }
-  /* Sumate Mobile */
-  .sumate_trabaja {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 90px; }
-  .sumate_trabaja h1, .sumate_trabaja .h1 {
-    font-size: 18px; }
-  .sumate_trabaja_p {
+    padding-bottom: 40px; } }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Alquileres Tablet */
+  .alquileres_p {
     margin: 0 auto;
-    align-items: center;
-    width: 80%;
-    font-size: 16px;
-    padding-bottom: 20px; }
-  .sumate_forms {
-    width: 100%;
-    height: 240px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px; }
-  .sumate_forms_labels {
+    width: 5%;
+    height: 100%;
+    font-size: 16px; }
+  .alquileres_condiciones h1, .alquileres_condiciones .h1 {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: underline;
+    padding-top: 25px;
+    height: 100%; }
+  .alquileres_ol {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 15px;
+    width: 90%;
+    height: 100%;
     font-size: 16px;
-    gap: 5px; }
-  .sumate_forms_inputs {
+    padding-bottom: 40px; } }
+
+@media (min-width: 1024px) {
+  /* Inicio Estilo Alquileres Desktop */
+  .alquileres_p {
+    margin: 0 auto;
+    width: 90%;
+    height: 100%; }
+  .alquileres_ol {
     display: flex;
-    gap: 9px;
-    flex-direction: column; }
-  .sumate_forms_inputs_box {
-    height: 20px; }
-  .sumate_forms_sexo {
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+    height: 700px;
+    font-size: 18px; }
+  .alquileres_condiciones {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    gap: 20px;
-    height: 80px; }
-  .sumate_forms_sexo {
-    font-size: 16px; }
-  .sumate_forms_contenedor {
-    display: flex;
-    justify-content: center; }
-  .sumate_textarea {
-    width: 80%;
-    height: 120px; }
-  .sumate_forms_acepta {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-size: 12px; }
-  .sumate_forms_enviar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
     width: 100%;
-    gap: 15px;
-    padding-top: 15px; }
+    height: 220px; } }
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
   /* Contacto Mobile */
   .main_contacto {
     display: flex;
@@ -8517,9 +8467,9 @@ textarea.form-control-lg {
     align-items: center;
     width: 100%;
     height: 300px; }
-  .contacto_mapa img {
-    margin: 0 auto;
-    width: 90%; }
+    .contacto_mapa img {
+      margin: 0 auto;
+      width: 90%; }
   .contacto_forms {
     width: 100%;
     height: 110px;
@@ -8527,292 +8477,41 @@ textarea.form-control-lg {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1f 1fr;
     gap: 2px; }
-  .contacto_forms_img {
-    width: 80%;
-    padding: 40px; }
-  .contacto_forms_inputs {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    font-size: 12px;
-    padding-top: 20px;
-    padding-right: 30px; }
+    .contacto_forms_img {
+      width: 80%;
+      padding: 40px; }
+    .contacto_forms_inputs {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      font-size: 12px;
+      padding-top: 20px;
+      padding-right: 30px; }
+    .contacto_forms_texto_contenedor {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 15px; }
+    .contacto_forms_texto {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 90%;
+      height: 100px; }
+    .contacto_forms_submit {
+      display: flex;
+      align-items: start;
+      justify-content: center;
+      height: 50px; }
   .input_scale_contacto {
     width: 100%;
     height: 20px; }
-  .contacto_forms_texto_contenedor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 15px; }
-  .contacto_forms_texto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 90%;
-    height: 120px; }
-  .contacto_forms_submit {
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    height: 50px; }
   .footer {
-    height: 100%; }
-  /* Nosotros Mobile */
-  .nosotros_main {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-self: center;
-    padding-top: 70px;
-    width: 100%;
-    height: 100%; }
-  .nosotros_main_img {
-    width: 95%; }
-  .nosotros_main_text {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%; }
-  .nosotros_main_text_p {
-padding-top: 30px;
-    margin: 0 auto;
-    line-height: 2;
-    width: 90%;
-    font-size: 16px; }
-  .footer {
-    width: 100vw;
-    background-color: grey; }
-  .footer_img {
-    width: 100%; }
-  /* Alquileres Mobile */
-  .alquileres_condiciones {
-    text-decoration: underline;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 100%; }
-  .alquileres_condiciones h1, .alquileres_condiciones .h1 {
-    padding-top: 15px;
-    font-size: 18px; }
-  .alquileres_p {
-    margin: 0 auto;
-    width: 5%;
-    height: 100%;
-    font-size: 12px; }
-  .alquileres_ol {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 15px;
-    width: 90%;
-    height: 100%;
-    font-size: 16px;
-    padding-top: 20px;
-    padding-bottom: 40px; } }
+    height: 100%; } }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  /* index Tablet */
-  body {
-    margin: 0 auto;
-    font-family: "DM Sans", sans-serif !important;
-    background-image: #e7e7e7; }
-  .logorental {
-    padding-top: 10px;
-    width: 25%; }
-  .main_header_logo a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; }
-  .main_header_nav {
-    padding-top: 10px;
-    width: 100vw;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none; }
-  .imagenportada {
-    margin: 0 auto;
-    width: 100vw; }
-  .main_maspedidos_title {
-    display: flex;
-    flex-direction: column;
-    font-size: 8px;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 20px; }
-  .main_maspedidos_title h2, .main_maspedidos_title .h2 {
-    padding-top: 20px;
-    font-size: 16px; }
-  .main_maspedidos {
-    width: 100vw;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    gap: 15px; }
-  .main_maspedidos_box {
-    width: 75%;
-    justify-self: center; }
-  .main_maspedidos_cam {
-    width: 100%; }
-  .masproductos {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 0px;
-    font-size: 8px; }
-  .masproductos {
-    font-size: 16px;
-    padding-top: 20px;
-    padding-bottom: 20px; }
-  .arribos_oferta {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 3px;
-    gap: 10px; }
-  .oferta_del_mes {
-    width: 70%; }
-  .nuevos_arribos {
-    width: 70%; }
-  .promo_estudiantes {
-    width: 80%;
-    padding-bottom: 5px; }
-  h3 span, .h3 span {
-    background-color: #d6d6d6; }
-  .footer {
-    width: 100vw;
-    background-color: grey; }
-  .footer_img {
-    width: 100%; }
-  /* Nosotros Tablet */
-  .nosotros_main {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-self: center;
-    padding-top: 70px;
-    width: 100%;
-    height: 100%; }
-  .nosotros_main_img {
-    padding-top: 15px;
-    width: 90%; }
-  .nosotros_main_text {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%; }
-  .nosotros_main_text_p {
-    padding-top: 30px;
-    margin: 0 auto;
-    line-height: 2;
-    width: 90%;
-    font-size: 18px; }
-  .footer {
-    width: 100vw;
-    background-color: grey; }
-  .footer_img {
-    width: 100%; }
-  /* Alquileres Tablet */
-  .alquileres_p {
-    margin: 0 auto;
-    width: 5%;
-    height: 100%;
-    font-size: 16px; }
-  .alquileres_condiciones h1, .alquileres_condiciones .h1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 20px;
-    text-decoration: underline;
-    padding-top: 25px;
-    height: 80px; }
-  .alquileres_ol {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 15px;
-    width: 90%;
-    height: 100%;
-    font-size: 16px;
-    padding-bottom: 40px; }
-  /* Sumate Tablet */
-  .sumate_trabaja {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
-    width: 100%;
-    height: 50px; }
-  .sumate_trabaja h1, .sumate_trabaja .h1 {
-    font-size: 16px;
-    text-decoration: underline; }
-  .sumate_trabaja_p {
-    margin: 0 auto;
-    align-items: center;
-    width: 80%;
-    font-size: 12px;
-    padding-bottom: 20px; }
-  .sumate_forms {
-    width: 100%;
-    height: 280px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px; }
-  .sumate_forms_labels {
-    display: flex;
-    flex-direction: column;
-    font-size: 16px;
-    gap: 12px; }
-  .sumate_forms_inputs {
-    display: flex;
-    gap: 9px;
-    flex-direction: column; }
-  .sumate_forms_inputs_box {
-    height: 20px; }
-  .sumate_forms_inputs input {
-    height: 9%; }
-  .sumate_forms_sexo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-    height: 40px; }
-  .sumate_forms_sexo {
-    font-size: 16px; }
-  .sumate_forms_contenedor {
-    display: flex;
-    justify-content: center; }
-  .sumate_textarea {
-    width: 60%;
-    height: 140px; }
-  .sumate_forms_acepta {
-    padding-top: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-size: 12px; }
-  .sumate_forms_enviar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 15px;
-    padding-top: 15px; }
   /* Contacto Tablet */
   .main_contacto {
     display: flex;
@@ -8834,159 +8533,295 @@ padding-top: 30px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1f 1fr;
     gap: 2px; }
-  .contacto_forms_img {
-    width: 100%;
-    padding: 40px;
-    padding-left: 160px; }
-  .contacto_forms_inputs {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    font-size: 12px;
-    padding-top: 20px;
-    padding-right: 30px; }
+    .contacto_forms_img {
+      width: 100%;
+      padding: 40px;
+      padding-left: 160px; }
+    .contacto_forms_inputs {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      font-size: 12px;
+      padding-top: 20px;
+      padding-right: 30px; }
+    .contacto_forms_texto_contenedor {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 10px; }
+    .contacto_forms_texto {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 90%;
+      height: 200px; }
+    .contacto_forms_submit {
+      display: flex;
+      align-items: start;
+      justify-content: center;
+      height: 50px; }
   .input_scale {
     width: 99%;
     height: 16px; }
-  .contacto_forms_texto_contenedor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 10px; }
-  .contacto_forms_texto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 90%;
-    height: 200px; }
-  .contacto_forms_submit {
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    height: 50px; }
   .footer {
     height: 100%; } }
 
 @media (min-width: 1024px) {
-  body {
+  /* Inicio Estilo Contacto Desktop */
+  .main_contacto {
     margin: 0 auto;
-    font-family: "DM Sans", sans-serif !important;
-    background-image: #e7e7e7; }
-  .logorental {
-    width: 40%; }
-  .main_header {
-    z-index: 3;
-    width: 100%;
-    position: fixed; }
-  .imagenportada {
-    width: 100vw; }
-  .main_img {
-    width: 100vw; }
-  .main_maspedidos_title {
-    display: grid;
-    justify-content: center;
-    padding-top: 10px;
-    width: 100vw;
-    height: 100px; }
-  .main_maspedidos {
-    width: 100vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 15px 0px;
-    align-content: space-evenly; }
-  .main_maspedidos_box {
-    width: 90%;
-    justify-self: center; }
-  .main_maspedidos_cam {
-    width: 100%;
-    transition: all 0.5s; }
-  .main_maspedidos_cam:hover {
-    transform: scale(1.1);
-    border-radius: 30px; }
-  .masproductos {
+    height: 1000px; }
+  .contacto_mapa {
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: center; }
-  .seccion3 {
-    width: 100%; }
-  .arribos_oferta {
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    height: 450px; }
+    .contacto_mapa img {
+      width: 70%; }
+  .contacto_forms {
     width: 100%;
-    height: 800px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "nuevos_arribos oferta_del_mes" "promo_estudiantes promo_estudiantes";
-    padding-top: 50px;
-    justify-items: center;
-    gap: 20px 10px; }
-  .nuevos_arribos {
-    grid-area: nuevos_arribos;
-    width: 98%;
-    animation-name: Movimiento;
-    animation-iteration-count: unset;
-    animation-timing-function: cubic-bezier();
-    animation-duration: 1.5s;
-    animation-delay: 0s; }
-  .oferta_del_mes {
-    grid-area: oferta_del_mes;
-    width: 98%;
-    animation-name: Movimiento2;
-    animation-iteration-count: unset;
-    animation-timing-function: cubic-bezier();
-    animation-duration: 1.5s;
-    animation-delay: 0s; }
-  .promo_estudiantes {
-    grid-area: promo_estudiantes;
-    width: 99%;
-    animation-name: Movimiento3;
-    animation-iteration-count: unset;
-    animation-duration: 1.5s;
-    animation-delay: 0s; }
-  h3 span, .h3 span {
-    background-color: #d6d6d6; }
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 80px;
+    gap: 20px; }
+    .contacto_forms_labels {
+      display: flex;
+      flex-direction: column;
+      font-size: 19px; }
+    .contacto_forms_inputs {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      width: 30%; }
+    .contacto_forms_texto {
+      display: flex;
+      justify-content: center; }
+    .contacto_forms_submit {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      padding-top: 20px; }
+    .contacto_forms_img {
+      width: 80%;
+      animation-name: Loop;
+      animation-iteration-count: infinite;
+      animation-timing-function: cubic-bezier(90%);
+      animation-duration: 5s;
+      animation-delay: 0s; } }
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  /* Nosotros Mobile */
+  .nosotros_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    padding-top: 70px;
+    width: 100%;
+    height: 100%; }
+    .nosotros_main_img {
+      width: 95%; }
+    .nosotros_main_text {
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%; }
+    .nosotros_main_text_p {
+      padding-top: 20px;
+      margin: 0 auto;
+      line-height: 2;
+      width: 90%;
+      font-size: 16px;
+      padding-bottom: 40px; }
   .footer {
     width: 100vw;
     background-color: grey; }
-  .footer_img {
-    width: 100%; }
+    .footer_img {
+      width: 100%; } }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Nosotros Tablet */
+  .nosotros_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    padding-top: 70px;
+    width: 100%;
+    height: 100%; }
+    .nosotros_main_img {
+      padding-top: 15px;
+      width: 90%; }
+    .nosotros_main_text {
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 600px;
+      font-size: 16px;
+      line-height: 2;
+      width: 90%; }
+  .footer {
+    width: 100vw;
+    background-color: grey; }
+    .footerimg {
+      width: 100%; } }
+
+@media (min-width: 1024px) {
   /* Inicio Estilo Nosotros Desktop */
   .nosotros_main_text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 600px; }
-  .nosotros_main_text_p {
-    margin: 0 auto;
-    line-height: 2;
-    width: 90%;
-    font-size: 20px; }
-  /* Inicio Estilo Alquileres Desktop */
-  .alquileres_p {
-    margin: 0 auto;
-    width: 90%;
-    height: 100%; }
-  .alquileres_ol {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 90%;
-    height: 700px; }
-  .alquileres_condiciones {
+    height: 400px; }
+    .nosotros_main_text_p {
+      margin: 0 auto;
+      line-height: 2;
+      width: 90%;
+      font-size: 17px; } }
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  /* Sumate Mobile */
+  .sumate_trabaja {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 80px;
     width: 100%;
-    height: 220px; }
-  /* Inicio Estilo Condiciones Desktop  */
-  .condiciones {
-    margin: 0 auto;
+    height: 90px; }
+    .sumate_trabaja h1, .sumate_trabaja .h1 {
+      font-size: 18px; }
+    .sumate_trabaja_p {
+      margin: 0 auto;
+      align-items: center;
+      width: 80%;
+      font-size: 16px;
+      padding-bottom: 20px; }
+  .sumate_forms {
+    width: 100%;
+    height: 240px;
     display: flex;
-    height: 100px; }
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px; }
+    .sumate_forms_labels {
+      display: flex;
+      flex-direction: column;
+      font-size: 16px;
+      gap: 5px; }
+    .sumate_forms_inputs {
+      display: flex;
+      gap: 9px;
+      flex-direction: column; }
+    .sumate_forms_inputs_box {
+      height: 20px; }
+    .sumate_forms_sexo {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 20px;
+      height: 40px;
+      font-size: 16px; }
+    .sumate_forms_contenedor {
+      display: flex;
+      justify-content: center; }
+    .sumate_forms_acepta {
+      padding-top: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      font-size: 12px; }
+    .sumate_forms_enviar {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      gap: 15px;
+      padding-top: 15px; }
+    .sumate_forms_checkbox {
+      width: 8%; }
+  .sumate_textarea {
+    width: 80%;
+    height: 120px; } }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Sumate Tablet */
+  .sumate_trabaja {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    width: 100%; }
+    .sumate_trabaja h1, .sumate_trabaja .h1 {
+      font-size: 20px;
+      text-decoration: underline; }
+    .sumate_trabaja_p {
+      margin: 0 auto;
+      align-items: center;
+      width: 80%;
+      font-size: 16px;
+      padding-top: 15px;
+      padding-bottom: 16px; }
+  .sumate_forms {
+    width: 100%;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px; }
+    .sumate_forms_labels {
+      display: flex;
+      flex-direction: column;
+      font-size: 16px;
+      gap: 5px; }
+    .sumate_forms_inputs {
+      display: flex;
+      gap: 9px;
+      flex-direction: column; }
+    .sumate_forms_inputs_box {
+      height: 20px; }
+      .sumate_forms_inputs_box input {
+        height: 9%; }
+    .sumate_forms_sexo {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 20px;
+      height: 40px;
+      font-size: 16px; }
+    .sumate_forms_contenedor {
+      display: flex;
+      justify-content: center; }
+    .sumate_forms_acepta {
+      padding-top: 15px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      font-size: 12px; }
+    .sumate_forms_enviar {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 15px;
+      padding-top: 15px; }
+    .sumate_forms_checkbox {
+      width: 5%; }
+  .sumate_textarea {
+    width: 60%;
+    height: 120px; } }
+
+@media (min-width: 1024px) {
   /* Inicio Estilo Sumate Desktop */
   .sumate_trabaja {
     display: flex;
@@ -9043,88 +8878,231 @@ padding-top: 30px;
     justify-content: center;
     gap: 15px;
     padding-top: 15px; }
-  /* Inicio Estilo Contacto Desktop */
-  .main_contacto {
+  .sumate_forms_checkbox {
+    width: 2%; } }
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  /* index Mobile */
+  body {
     margin: 0 auto;
-    height: 1000px; }
-  .contacto_mapa {
+    font-family: "DM Sans", sans-serif !important;
+    background-image: #e7e7e7; }
+  .logorental {
+    padding-top: 10px;
+    width: 30%; }
+  .imagenportada {
     margin: 0 auto;
+    width: 100vw; }
+  .main_maspedidos {
+    width: 100vw;
+    height: 100%;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    padding-top: 80px;
-    height: 450px; }
-  .contacto_mapa img {
-    width: 70%; }
-  .contacto_forms {
-    width: 100%;
-    height: 250px;
+    align-content: center; }
+    .main_maspedidos_title h2, .main_maspedidos_title .h2 {
+      margin: 0 auto;
+      padding-top: 20px;
+      font-size: 20px;
+      align-items: center;
+      justify-content: center;
+      text-align: center; }
+    .main_maspedidos_box {
+      width: 90%;
+      justify-self: center; }
+    .main_maspedidos_cam {
+      width: 100%; }
+  .masproductos {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 80px;
-    gap: 20px; }
-  .contacto_forms_labels {
-    display: flex;
-    flex-direction: column;
-    font-size: 19px; }
-  .contacto_forms_inputs {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    width: 30%; }
-  .contacto_forms_texto {
-    display: flex;
-    justify-content: center; }
-  .contacto_forms_submit {
-    display: flex;
     align-items: center;
+    width: 100%;
+    height: 40px;
+    font-size: 18px; }
+  .arribos_oferta {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
-    padding-top: 20px; }
-  .contacto_forms_img {
+    padding-bottom: 3px;
+    gap: 10px; }
+  .oferta_del_mes {
+    width: 80%; }
+  .nuevos_arribos {
+    width: 80%; }
+  .promo_estudiantes {
+    width: 90%;
+    padding-bottom: 5px; }
+  h3 span, .h3 span {
+    background-color: #d6d6d6; }
+  .footer {
+    width: 100vw;
+    background-color: grey; }
+    .footer_img {
+      width: 100%; } }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* index Tablet */
+  body {
+    margin: 0 auto;
+    font-family: "DM Sans", sans-serif !important;
+    background-image: #e7e7e7; }
+  .logorental {
+    padding-top: 10px;
+    width: 25%; }
+  .main_header_logo a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .main_header_nav {
+    padding-top: 10px;
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; }
+  .imagenportada {
+    margin: 0 auto;
+    width: 100vw; }
+  .main_maspedidos {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 15px; }
+    .main_maspedidos_title {
+      display: flex;
+      flex-direction: column;
+      font-size: 8px;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 20px; }
+      .main_maspedidos_title h2, .main_maspedidos_title .h2 {
+        padding-top: 20px;
+        font-size: 26px; }
+    .main_maspedidos_box {
+      width: 75%;
+      justify-self: center; }
+    .main_maspedidos_cam {
+      width: 100%; }
+  .masproductos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .arribos_oferta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3px;
+    gap: 10px; }
+  .oferta_del_mes {
+    width: 70%; }
+  .nuevos_arribos {
+    width: 70%; }
+  .promo_estudiantes {
     width: 80%;
-    animation-name: Loop;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(90%);
-    animation-duration: 5s;
-    animation-delay: 0s; } }
+    padding-bottom: 5px; }
+  h3 span, .h3 span {
+    background-color: #d6d6d6; }
+  .footer {
+    width: 100vw;
+    background-color: grey; }
+  .footer_img {
+    width: 100%; } }
+
+@media (min-width: 1024px) {
+  body {
+    margin: 0 auto;
+    font-family: "DM Sans", sans-serif !important;
+    background-image: #e7e7e7; }
+  .logorental {
+    width: 40%; }
+  .main_header {
+    z-index: 3;
+    width: 100%;
+    position: fixed; }
+  .imagenportada {
+    width: 100vw; }
+  .main_img {
+    width: 100vw; }
+  .main_maspedidos {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px 0px;
+    align-content: space-evenly; }
+    .main_maspedidos_title {
+      display: grid;
+      justify-content: center;
+      padding-top: 10px;
+      width: 100vw;
+      height: 100px; }
+    .main_maspedidos_box {
+      width: 90%;
+      justify-self: center; }
+      .main_maspedidos_box :hover {
+        transform: scale(1.1);
+        border-radius: 30px; }
+    .main_maspedidos_cam {
+      width: 100%;
+      transition: all 0.5s; }
+  .masproductos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .seccion3 {
+    width: 100%; }
+  .arribos_oferta {
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "nuevos_arribos oferta_del_mes" "promo_estudiantes promo_estudiantes";
+    padding-top: 50px;
+    justify-items: center;
+    gap: 20px 10px; }
+  .nuevos_arribos {
+    grid-area: nuevos_arribos;
+    width: 98%;
+    animation-name: Movimiento;
+    animation-iteration-count: unset;
+    animation-timing-function: cubic-bezier();
+    animation-duration: 1.5s;
+    animation-delay: 0s; }
+  .oferta_del_mes {
+    grid-area: oferta_del_mes;
+    width: 98%;
+    animation-name: Movimiento2;
+    animation-iteration-count: unset;
+    animation-timing-function: cubic-bezier();
+    animation-duration: 1.5s;
+    animation-delay: 0s; }
+  .promo_estudiantes {
+    grid-area: promo_estudiantes;
+    width: 99%;
+    animation-name: Movimiento3;
+    animation-iteration-count: unset;
+    animation-duration: 1.5s;
+    animation-delay: 0s; }
+  h3 span, .h3 span {
+    background-color: #d6d6d6; }
+  .footer {
+    width: 100vw;
+    background-color: grey; }
+    .footer_img {
+      width: 100%; } }
 
 /* Inicio de las animaciones */
-@keyframes Movimiento {
-  0% {
-    transform: translate(-700px); }
-  100% {
-    transform: translate(0px); } }
-
-@keyframes Movimiento2 {
-  0% {
-    transform: translate(700px); }
-  100% {
-    transform: translate(0px); } }
-
-@keyframes Movimiento3 {
-  0% {
-    transform: scale(0%); }
-  100% {
-    transform: scale(100%); } }
-
-@keyframes Opacity {
-  0% {
-    opacity: 0%; }
-  100% {
-    opacity: 100%; } }
-
-@keyframes Loop {
-  0% {
-    opacity: 0%;
-    transform: scale(40%); }
-  35% {
-    opacity: 100%; }
-  90% {
-    transform: scale(100%); }
-  60% {
-    opacity: 100%; }
-  100% {
-    opacity: 0%; } }
